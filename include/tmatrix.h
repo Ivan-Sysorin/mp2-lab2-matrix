@@ -109,7 +109,7 @@ public:
 
     for (size_t i = 0; i < sz; i++) {
       if (pMem[i] != v.pMem[i]) {
-        return False;
+        return false;
       }
     }
 
@@ -158,11 +158,11 @@ public:
     TDynamicVector<T> tmp(sz);
 
     if (tmp.sz != v.sz) {
-      throw n;
+      throw sz - v.sz;
     }
 
     for (size_t i = 0; i < sz; i++) {
-      tmp.pMem[i] = pMem[i] + v.pMem[i];
+      tmp[i] = pMem[i] + v.pMem[i];
     }
 
     return tmp;
@@ -172,11 +172,11 @@ public:
     TDynamicVector<T> tmp(sz);
 
     if (tmp.sz != v.sz) {
-      throw n;
+      throw sz - v.sz;
     }
 
     for (size_t i = 0; i < sz; i++) {
-      tmp.pMem[i] = pMem[i] - v.pMem[i];
+      tmp[i] = pMem[i] - v.pMem[i];
     }
 
     return tmp;
@@ -186,11 +186,11 @@ public:
     TDynamicVector<T> tmp(sz);
 
     if (tmp.sz != v.sz) {
-      throw n;
+      throw sz - v.sz;
     }
 
     for (size_t i = 0; i < sz; i++) {
-      tmp.pMem[i] = pMem[i] * v.pMem[i];
+      tmp[i] = pMem[i] * v.pMem[i];
     }
 
     return tmp;
@@ -272,7 +272,7 @@ public:
   TDynamicVector<T> operator*(const TDynamicVector<T>& v)
   {
     if (sz != m.sz) {
-      throw n;
+      throw sz - m.sz;
     }
 
     TDynamicMatrix<T> tmp(sz);
@@ -349,9 +349,17 @@ public:
   // ввод/вывод
   friend istream& operator>>(istream& istr, TDynamicMatrix& v)
   {
+    for (size_t i = 0; i < v.sz; i++) {
+      istr >> v.pMem[i];
+    }
+    return istr;
   }
   friend ostream& operator<<(ostream& ostr, const TDynamicMatrix& v)
   {
+    for (size_t i = 0; i < v.sz; i++) {
+      ostr << v.pMem[i] << ' ';
+    }
+    return ostr;
   }
 };
 

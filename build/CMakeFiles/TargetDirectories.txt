@@ -1,0 +1,14 @@
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/CMakeFiles/edit_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/CMakeFiles/rebuild_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/src/CMakeFiles/matrix.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/src/CMakeFiles/edit_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/src/CMakeFiles/rebuild_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples/CMakeFiles/sample_matrix.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples/CMakeFiles/edit_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples/CMakeFiles/rebuild_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/gtest/CMakeFiles/gtest.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/gtest/CMakeFiles/edit_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/gtest/CMakeFiles/rebuild_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/test/CMakeFiles/test_matrix.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/test/CMakeFiles/edit_cache.dir
+/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/test/CMakeFiles/rebuild_cache.dir
