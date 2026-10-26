@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/john/Документы/laborator_work2/mp2-lab2-matrix
+CMAKE_SOURCE_DIR = /home/john/Документы/laborator_work2/mp2-lab2-ivan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/john/Документы/laborator_work2/mp2-lab2-matrix/build
+CMAKE_BINARY_DIR = /home/john/Документы/laborator_work2/mp2-lab2-ivan/build
 
 # Utility rule file for matrix.
 
@@ -77,10 +77,10 @@ src/CMakeFiles/matrix.dir/build: matrix
 .PHONY : src/CMakeFiles/matrix.dir/build
 
 src/CMakeFiles/matrix.dir/clean:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/src && $(CMAKE_COMMAND) -P CMakeFiles/matrix.dir/cmake_clean.cmake
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/src && $(CMAKE_COMMAND) -P CMakeFiles/matrix.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/matrix.dir/clean
 
 src/CMakeFiles/matrix.dir/depend:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/john/Документы/laborator_work2/mp2-lab2-matrix /home/john/Документы/laborator_work2/mp2-lab2-matrix/src /home/john/Документы/laborator_work2/mp2-lab2-matrix/build /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/src /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/src/CMakeFiles/matrix.dir/DependInfo.cmake "--color=$(COLOR)" matrix
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/john/Документы/laborator_work2/mp2-lab2-ivan /home/john/Документы/laborator_work2/mp2-lab2-ivan/src /home/john/Документы/laborator_work2/mp2-lab2-ivan/build /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/src /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/src/CMakeFiles/matrix.dir/DependInfo.cmake "--color=$(COLOR)" matrix
 .PHONY : src/CMakeFiles/matrix.dir/depend
 

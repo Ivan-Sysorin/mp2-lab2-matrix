@@ -246,7 +246,7 @@ public:
     else {
       for (size_t i = 0; i < sz; i++) {
         for (size_t j = 0; j < sz; j++) {
-          if (pMem[i][j] != v.pMem[i][j]) {
+          if (pMem[i][j] != m.pMem[i][j]) {
             return false;
           }
         }
@@ -271,8 +271,8 @@ public:
   // матрично-векторные операции
   TDynamicVector<T> operator*(const TDynamicVector<T>& v)
   {
-    if (sz != m.sz) {
-      throw sz - m.sz;
+    if (sz != v.sz) {
+      throw sz - v.sz;
     }
 
     TDynamicMatrix<T> tmp(sz);

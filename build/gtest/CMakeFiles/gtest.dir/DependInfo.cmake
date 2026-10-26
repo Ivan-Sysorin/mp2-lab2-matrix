@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/john/Документы/laborator_work2/mp2-lab2-matrix/gtest/gtest-all.cc" "gtest/CMakeFiles/gtest.dir/gtest-all.cc.o" "gcc" "gtest/CMakeFiles/gtest.dir/gtest-all.cc.o.d"
+  "/home/john/Документы/laborator_work2/mp2-lab2-ivan/gtest/gtest-all.cc" "gtest/CMakeFiles/gtest.dir/gtest-all.cc.o" "gcc" "gtest/CMakeFiles/gtest.dir/gtest-all.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

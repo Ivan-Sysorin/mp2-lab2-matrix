@@ -48,7 +48,8 @@ TEST(TDynamicMatrix, copied_matrix_has_its_own_memory)
 TEST(TDynamicMatrix, can_get_size)
 {
     TDynamicMatrix<int> v(5);
-    ASSERT_NO_THROW(v.getSize());
+    size_t size = 5;
+    ASSERT_NO_THROW(size, v.size());
 }
 
 TEST(TDynamicMatrix, can_set_and_get_element)
@@ -87,7 +88,7 @@ TEST(TDynamicMatrix, assign_operator_change_matrix_size)
     TDynamicMatrix<int> v(5);
     TDynamicMatrix<int> v1(4);
     v1 = v;
-    EXPECT_EQ(5, v1.getSize());
+    EXPECT_EQ(5 == v1.size());
 }
 
 TEST(TDynamicMatrix, can_assign_matrices_of_different_size)

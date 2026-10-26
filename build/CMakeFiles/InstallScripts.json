@@ -1,11 +1,11 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-matrix/build/cmake_install.cmake",
-		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-matrix/build/src/cmake_install.cmake",
-		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-matrix/build/samples/cmake_install.cmake",
-		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-matrix/build/gtest/cmake_install.cmake",
-		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-matrix/build/test/cmake_install.cmake"
+		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-ivan/build/cmake_install.cmake",
+		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-ivan/build/src/cmake_install.cmake",
+		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-ivan/build/samples/cmake_install.cmake",
+		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-ivan/build/gtest/cmake_install.cmake",
+		"/home/john/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/laborator_work2/mp2-lab2-ivan/build/test/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

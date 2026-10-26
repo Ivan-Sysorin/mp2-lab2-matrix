@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/john/Документы/laborator_work2/mp2-lab2-matrix
+CMAKE_SOURCE_DIR = /home/john/Документы/laborator_work2/mp2-lab2-ivan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/john/Документы/laborator_work2/mp2-lab2-matrix/build
+CMAKE_BINARY_DIR = /home/john/Документы/laborator_work2/mp2-lab2-ivan/build
 
 # Include any dependencies generated for this target.
 include samples/CMakeFiles/sample_matrix.dir/depend.make
@@ -73,18 +73,18 @@ samples/CMakeFiles/sample_matrix.dir/codegen:
 .PHONY : samples/CMakeFiles/sample_matrix.dir/codegen
 
 samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o: samples/CMakeFiles/sample_matrix.dir/flags.make
-samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o: /home/john/Документы/laborator_work2/mp2-lab2-matrix/samples/sample_matrix.cpp
+samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o: /home/john/Документы/laborator_work2/mp2-lab2-ivan/samples/sample_matrix.cpp
 samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o: samples/CMakeFiles/sample_matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o"
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o -MF CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o.d -o CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o -c /home/john/Документы/laborator_work2/mp2-lab2-matrix/samples/sample_matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/Документы/laborator_work2/mp2-lab2-ivan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o"
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o -MF CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o.d -o CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o -c /home/john/Документы/laborator_work2/mp2-lab2-ivan/samples/sample_matrix.cpp
 
 samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sample_matrix.dir/sample_matrix.cpp.i"
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Документы/laborator_work2/mp2-lab2-matrix/samples/sample_matrix.cpp > CMakeFiles/sample_matrix.dir/sample_matrix.cpp.i
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Документы/laborator_work2/mp2-lab2-ivan/samples/sample_matrix.cpp > CMakeFiles/sample_matrix.dir/sample_matrix.cpp.i
 
 samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sample_matrix.dir/sample_matrix.cpp.s"
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Документы/laborator_work2/mp2-lab2-matrix/samples/sample_matrix.cpp -o CMakeFiles/sample_matrix.dir/sample_matrix.cpp.s
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Документы/laborator_work2/mp2-lab2-ivan/samples/sample_matrix.cpp -o CMakeFiles/sample_matrix.dir/sample_matrix.cpp.s
 
 # Object files for target sample_matrix
 sample_matrix_OBJECTS = \
@@ -97,18 +97,18 @@ bin/sample_matrix: samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o
 bin/sample_matrix: samples/CMakeFiles/sample_matrix.dir/build.make
 bin/sample_matrix: samples/CMakeFiles/sample_matrix.dir/compiler_depend.ts
 bin/sample_matrix: samples/CMakeFiles/sample_matrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/john/Документы/laborator_work2/mp2-lab2-matrix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/sample_matrix"
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample_matrix.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/john/Документы/laborator_work2/mp2-lab2-ivan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/sample_matrix"
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample_matrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 samples/CMakeFiles/sample_matrix.dir/build: bin/sample_matrix
 .PHONY : samples/CMakeFiles/sample_matrix.dir/build
 
 samples/CMakeFiles/sample_matrix.dir/clean:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples && $(CMAKE_COMMAND) -P CMakeFiles/sample_matrix.dir/cmake_clean.cmake
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/samples && $(CMAKE_COMMAND) -P CMakeFiles/sample_matrix.dir/cmake_clean.cmake
 .PHONY : samples/CMakeFiles/sample_matrix.dir/clean
 
 samples/CMakeFiles/sample_matrix.dir/depend:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/john/Документы/laborator_work2/mp2-lab2-matrix /home/john/Документы/laborator_work2/mp2-lab2-matrix/samples /home/john/Документы/laborator_work2/mp2-lab2-matrix/build /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples/CMakeFiles/sample_matrix.dir/DependInfo.cmake "--color=$(COLOR)" sample_matrix
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/john/Документы/laborator_work2/mp2-lab2-ivan /home/john/Документы/laborator_work2/mp2-lab2-ivan/samples /home/john/Документы/laborator_work2/mp2-lab2-ivan/build /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/samples /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/samples/CMakeFiles/sample_matrix.dir/DependInfo.cmake "--color=$(COLOR)" sample_matrix
 .PHONY : samples/CMakeFiles/sample_matrix.dir/depend
 

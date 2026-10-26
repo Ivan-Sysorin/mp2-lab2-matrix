@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/john/Документы/laborator_work2/mp2-lab2-matrix/samples/sample_matrix.cpp" "samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o" "gcc" "samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o.d"
+  "/home/john/Документы/laborator_work2/mp2-lab2-ivan/samples/sample_matrix.cpp" "samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o" "gcc" "samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o.d"
   "" "bin/sample_matrix" "gcc" "samples/CMakeFiles/sample_matrix.dir/link.d"
   )
 

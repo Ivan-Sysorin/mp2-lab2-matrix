@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/john/Документы/laborator_work2/mp2-lab2-matrix/test/test_main.cpp" "test/CMakeFiles/test_matrix.dir/test_main.cpp.o" "gcc" "test/CMakeFiles/test_matrix.dir/test_main.cpp.o.d"
-  "/home/john/Документы/laborator_work2/mp2-lab2-matrix/test/test_tmatrix.cpp" "test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o" "gcc" "test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o.d"
-  "/home/john/Документы/laborator_work2/mp2-lab2-matrix/test/test_tvector.cpp" "test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o" "gcc" "test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o.d"
+  "/home/john/Документы/laborator_work2/mp2-lab2-ivan/test/test_main.cpp" "test/CMakeFiles/test_matrix.dir/test_main.cpp.o" "gcc" "test/CMakeFiles/test_matrix.dir/test_main.cpp.o.d"
+  "/home/john/Документы/laborator_work2/mp2-lab2-ivan/test/test_tmatrix.cpp" "test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o" "gcc" "test/CMakeFiles/test_matrix.dir/test_tmatrix.cpp.o.d"
+  "/home/john/Документы/laborator_work2/mp2-lab2-ivan/test/test_tvector.cpp" "test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o" "gcc" "test/CMakeFiles/test_matrix.dir/test_tvector.cpp.o.d"
   "" "bin/test_matrix" "gcc" "test/CMakeFiles/test_matrix.dir/link.d"
   )
 

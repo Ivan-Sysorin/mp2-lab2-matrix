@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/john/Документы/laborator_work2/mp2-lab2-matrix
+CMAKE_SOURCE_DIR = /home/john/Документы/laborator_work2/mp2-lab2-ivan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/john/Документы/laborator_work2/mp2-lab2-matrix/build
+CMAKE_BINARY_DIR = /home/john/Документы/laborator_work2/mp2-lab2-ivan/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/CMakeFiles /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/samples//CMakeFiles/progress.marks
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/Документы/laborator_work2/mp2-lab2-matrix/build/CMakeFiles 0
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/CMakeFiles /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/samples//CMakeFiles/progress.marks
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/Документы/laborator_work2/mp2-lab2-ivan/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/clean
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/preinstall
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/preinstall
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 samples/CMakeFiles/sample_matrix.dir/rule:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/sample_matrix.dir/rule
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/CMakeFiles/sample_matrix.dir/rule
 .PHONY : samples/CMakeFiles/sample_matrix.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sample_matrix: samples/CMakeFiles/sample_matrix.dir/rule
 
 # fast build rule for target.
 sample_matrix/fast:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/sample_matrix.dir/build.make samples/CMakeFiles/sample_matrix.dir/build
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/sample_matrix.dir/build.make samples/CMakeFiles/sample_matrix.dir/build
 .PHONY : sample_matrix/fast
 
 sample_matrix.o: sample_matrix.cpp.o
@@ -135,7 +135,7 @@ sample_matrix.o: sample_matrix.cpp.o
 
 # target to build an object file
 sample_matrix.cpp.o:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/sample_matrix.dir/build.make samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/sample_matrix.dir/build.make samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.o
 .PHONY : sample_matrix.cpp.o
 
 sample_matrix.i: sample_matrix.cpp.i
@@ -143,7 +143,7 @@ sample_matrix.i: sample_matrix.cpp.i
 
 # target to preprocess a source file
 sample_matrix.cpp.i:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/sample_matrix.dir/build.make samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.i
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/sample_matrix.dir/build.make samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.i
 .PHONY : sample_matrix.cpp.i
 
 sample_matrix.s: sample_matrix.cpp.s
@@ -151,7 +151,7 @@ sample_matrix.s: sample_matrix.cpp.s
 
 # target to generate assembly for a file
 sample_matrix.cpp.s:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/sample_matrix.dir/build.make samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.s
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(MAKE) $(MAKESILENT) -f samples/CMakeFiles/sample_matrix.dir/build.make samples/CMakeFiles/sample_matrix.dir/sample_matrix.cpp.s
 .PHONY : sample_matrix.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/john/Документы/laborator_work2/mp2-lab2-matrix/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/john/Документы/laborator_work2/mp2-lab2-ivan/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

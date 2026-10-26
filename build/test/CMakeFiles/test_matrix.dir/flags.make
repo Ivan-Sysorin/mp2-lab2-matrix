@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGTEST_HAS_TR1_TUPLE=0
 
-CXX_INCLUDES = -I/home/john/Документы/laborator_work2/mp2-lab2-matrix/include -I/home/john/Документы/laborator_work2/mp2-lab2-matrix/gtest -I/home/john/Документы/laborator_work2/mp2-lab2-matrix/test/../3rdparty
+CXX_INCLUDES = -I/home/john/Документы/laborator_work2/mp2-lab2-ivan/include -I/home/john/Документы/laborator_work2/mp2-lab2-ivan/gtest -I/home/john/Документы/laborator_work2/mp2-lab2-ivan/test/../3rdparty
 
 CXX_FLAGS = -O3 -DNDEBUG
 
